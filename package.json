@@ -1,0 +1,38 @@
+{
+  "name": "vite-plugin-mistcss",
+  "homepage": "https://github.com/honeymaro/vite-plugin-mistcss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honeymaro/vite-plugin-mistcss.git"
+  },
+  "description": "Vite plugin for MistCSS",
+  "author": "honeymaro",
+  "license": "MIT",
+  "version": "0.5.6",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vite-plugin-mistcss.umd.cjs",
+  "module": "./dist/vite-plugin-mistcss.js",
+  "types": "./dist/vite-plugin-mistcss.d.ts",
+  "exports": {
+    "types": "./dist/vite-plugin-mistcss.d.ts",
+    "import": "./dist/vite-plugin-mistcss.js",
+    "require": "./dist/vite-plugin-mistcss.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "peerDependencies": {
+    "mistcss": "^0.5.6",
+    "vite": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vite-plugin-dts": "^4.2.4"
+  }
+}
