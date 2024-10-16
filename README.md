@@ -1,6 +1,8 @@
 # vite-plugin-mistcss
 
-A Vite plugin to seamlessly integrate MistCSS into your project.
+A Vite plugin to seamlessly integrate [MistCSS](https://github.com/typicode/mistcss) into your project.
+> Please note that both `vite-plugin-mistcss` and MistCSS are under active development. Breaking changes may occur at any time. Stay updated with the latest releases and consider pinning versions in your project to avoid unexpected issues.
+
 
 ## Installation
 
@@ -61,4 +63,4 @@ We welcome contributions! Feel free to open an issue or submit a pull request.
 
 ## Acknowledgements
 
-Special thanks to the Vite and MistCSS teams for their amazing work.
+Special thanks to [@typicode](https://github.com/typicode/mistcss) and Vite teams for their amazing work.
