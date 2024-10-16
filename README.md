@@ -27,8 +27,7 @@ import mistcssPlugin from "vite-plugin-mistcss";
 export default defineConfig({
   plugins: [
     mistcssPlugin({
-      target: "react", // Other options: 'vue', 'astro', 'hono', 'svelte'
-      directory: "src",
+      target: "react", // Available options: 'react', 'vue', 'astro', 'hono', 'svelte'
     }),
   ],
 });
@@ -37,8 +36,6 @@ export default defineConfig({
 ## Options
 
 - **`target`** (default: `react`): The target framework. Available options: `react`, `vue`, `astro`, `hono`, `svelte`.
-- **`directory`** (default: `src`): The directory to apply MistCSS.
-- **`watch`** (default: `true` when Vite runs in development mode. `false` when Vite runs in build mode.): Whether to run MistCSS in watch mode.
 
 ## Build
 

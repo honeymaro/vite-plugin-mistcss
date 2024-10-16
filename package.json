@@ -8,18 +8,17 @@
   "description": "Vite plugin for MistCSS",
   "author": "honeymaro",
   "license": "MIT",
-  "version": "0.5.6",
+  "version": "0.5.7-dev.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/vite-plugin-mistcss.umd.cjs",
+  "main": "./dist/vite-plugin-mistcss.js",
   "module": "./dist/vite-plugin-mistcss.js",
   "types": "./dist/vite-plugin-mistcss.d.ts",
   "exports": {
     "types": "./dist/vite-plugin-mistcss.d.ts",
-    "import": "./dist/vite-plugin-mistcss.js",
-    "require": "./dist/vite-plugin-mistcss.umd.cjs"
+    "import": "./dist/vite-plugin-mistcss.js"
   },
   "scripts": {
     "dev": "vite",
