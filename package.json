@@ -8,7 +8,7 @@
   "description": "Vite plugin for MistCSS",
   "author": "honeymaro",
   "license": "MIT",
-  "version": "0.5.7",
+  "version": "1.0.0-beta.2",
   "type": "module",
   "files": [
     "dist"
@@ -25,7 +25,8 @@
     "build": "tsc && vite build"
   },
   "peerDependencies": {
-    "mistcss": "^0.5.6",
+    "mistcss": "^1.0.0",
+    "postcss": "*",
     "vite": "*"
   },
   "devDependencies": {
@@ -33,5 +34,8 @@
     "typescript": "^5.4.5",
     "vite": "^5.2.10",
     "vite-plugin-dts": "^4.2.4"
+  },
+  "dependencies": {
+    "tinyglobby": "^0.2.10"
   }
 }

@@ -3,6 +3,9 @@ import dts from "vite-plugin-dts";
 
 export default defineConfig({
   build: {
+    rollupOptions: {
+      external: ["mistcss"],
+    },
     ssr: true,
 
     lib: {
