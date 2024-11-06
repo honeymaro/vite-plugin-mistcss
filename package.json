@@ -8,7 +8,7 @@
   "description": "Vite plugin for MistCSS",
   "author": "honeymaro",
   "license": "MIT",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "type": "module",
   "files": [
     "dist"
